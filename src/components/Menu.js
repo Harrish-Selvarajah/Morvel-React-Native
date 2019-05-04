@@ -30,23 +30,6 @@ class Menu extends Component {
         <ScrollView style={styles.scrollContainer}>
           <View style={styles.textWithIcon}>
             <View style={styles.withIcon}>
-              <Icon
-                style={styles.iconWithText}
-                name="download"
-                color="white"
-                size={28}
-              />
-              <Text style={styles.text}>My Downloads</Text>
-            </View>
-            <Icon
-              style={styles.rightIcon}
-              name="angle-right"
-              color="white"
-              size={25}
-            />
-          </View>
-          <View style={styles.textWithIcon}>
-            <View style={styles.withIcon}>
               <IonIcons
                 style={styles.iconWithText}
                 name="md-checkmark"
@@ -64,60 +47,14 @@ class Menu extends Component {
           </View>
 
           <View style={[styles.items, styles.itemSelected]}>
-            <Text style={styles.text}>Home</Text>
+            <Text style={styles.text}>Movies</Text>
           </View>
 
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Downloads</Text>
-          </View>
-
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Netflix Originals</Text>
-          </View>
-
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>TV Series</Text>
-          </View>
-
-          <View style={[styles.noSelectedItems]}>
+          <View style={[styles.items, styles.itemSelected]}>
             <Text style={styles.text}>Novels</Text>
           </View>
 
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Books</Text>
-          </View>
 
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Documentary</Text>
-          </View>
-
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Historic</Text>
-          </View>
-
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Indian Movies</Text>
-          </View>
-
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Indian Movies</Text>
-          </View>
-
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Indian Movies</Text>
-          </View>
-
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Romance</Text>
-          </View>
-
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Action</Text>
-          </View>
-
-          <View style={[styles.noSelectedItems]}>
-            <Text style={styles.text}>Thriller</Text>
-          </View>
         </ScrollView>
       </View>
     );
