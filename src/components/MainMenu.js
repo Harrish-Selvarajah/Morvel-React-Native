@@ -6,9 +6,8 @@ import List from "./PopularList";
 import Slide from "./Slider";
 import Header from "./Header";
 import Menu from "./Menu";
-import Routes from "./Routes";
-import popularList from "./PopularList";
 import PopularList from "./PopularList";
+import CFmovies from "./CFmovies";
 
 
 export class MainMenu extends Component {
@@ -42,6 +41,7 @@ export class MainMenu extends Component {
         
         <Slide />
         <PopularList />
+        <CFmovies />
 
       
       </SideMenu>
