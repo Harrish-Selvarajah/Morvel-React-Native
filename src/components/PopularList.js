@@ -56,7 +56,7 @@ class PopularList extends Component {
         data={this.state.dataSource}
         //renderItem={({item}) => <Image style={{ width: 120, height: 180 }} source={{ uri: imgURL + item.poster_path }}/>}
         renderItem={({ item }) => (
-                <TouchableWithoutFeedback onPress={ () => this.cb()}>
+                <TouchableWithoutFeedback onPress={ () => Actions.MovieDetails({id: item.id})}>
                   <View>
                   <Image style={{ width: 120, height: 180 }} source={{ uri: imgURL + item.poster_path }}/>
                   </View>
