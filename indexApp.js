@@ -6,6 +6,8 @@ import Search from "./src/components/Search";
 import MainMenu from "./src/components/MainMenu";
 import MovieDetails from "./src/components/MovieDetails";
 
+
+
 const { width, height } = Dimensions.get("window");
 
 class IndexApp extends Component {
